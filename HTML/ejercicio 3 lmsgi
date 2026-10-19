@@ -3,16 +3,13 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Tu Nombre">
     <title>Formulario de Registro</title>
 </head>
 <body>
 
     <h1>Formulario de Registro</h1>
-    <p>Completa el siguiente formulario para crear tu cuenta.</p>
 
-    <form action="#" method="post">
+    <form action="#" method="get">
 
         <fieldset>
             <legend>Información Personal</legend>
@@ -25,23 +22,22 @@
             <input type="text" id="apellido" name="apellido" required>
             <br><br>
 
-            <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
-            <input type="date" id="fecha_nacimiento"
-                   name="fecha_nacimiento" required>
+            <label for="fecha">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha" name="fecha" required>
             <br><br>
 
             <p>Género:</p>
 
             <input type="radio" id="masculino" name="genero"
-                   value="masculino" required>
+                   value="Masculino" required>
             <label for="masculino">Masculino</label>
 
             <input type="radio" id="femenino" name="genero"
-                   value="femenino">
+                   value="Femenino">
             <label for="femenino">Femenino</label>
 
             <input type="radio" id="otro" name="genero"
-                   value="otro">
+                   value="Otro">
             <label for="otro">Otro</label>
         </fieldset>
 
@@ -60,8 +56,7 @@
 
             <label for="direccion">Dirección:</label>
             <br>
-            <textarea id="direccion" name="direccion"
-                      rows="4" cols="40"></textarea>
+            <textarea id="direccion" name="direccion" rows="4" cols="40"></textarea>
         </fieldset>
 
         <br>
@@ -74,15 +69,11 @@
             <br><br>
 
             <label for="contrasena">Contraseña:</label>
-            <input type="password" id="contrasena"
-                   name="contrasena" required>
+            <input type="password" id="contrasena" name="contrasena" required>
             <br><br>
 
-            <label for="confirmar_contrasena">
-                Confirmación de Contraseña:
-            </label>
-            <input type="password" id="confirmar_contrasena"
-                   name="confirmar_contrasena" required>
+            <label for="confirmacion">Confirmación de Contraseña:</label>
+            <input type="password" id="confirmacion" name="confirmacion" required>
         </fieldset>
 
         <br>
@@ -97,21 +88,19 @@
                 <option value="verde">Verde</option>
                 <option value="amarillo">Amarillo</option>
             </select>
+
             <br><br>
 
-            <input type="checkbox" id="terminos"
-                   name="terminos" required>
-            <label for="terminos">
-                Acepto los Términos y Condiciones
-            </label>
+            <input type="checkbox" id="terminos" name="terminos" required>
+            <label for="terminos">Aceptar Términos y Condiciones</label>
         </fieldset>
 
         <br>
 
-        <button type="submit">Registrarse</button>
-        <button type="reset">Limpiar formulario</button>
+        <input type="submit" value="Registrarse">
 
     </form>
 
 </body>
 </html>
+

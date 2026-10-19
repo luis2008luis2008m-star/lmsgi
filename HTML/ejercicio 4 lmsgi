@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario del instituto</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 12px;
+            text-align: center;
+        }
+
+        thead {
+            background-color: #b3d9ff;
+        }
+
+        th {
+            background-color: #d9eaff;
+        }
+
+        .recreo {
+            background-color: #ffe699;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Horario del instituto</h1>
+    <h2>Grupo: 1.º de Informática</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Tramo</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>08:00 - 09:00</td>
+                <td rowspan="2">Programación</td>
+                <td>Lengua</td>
+                <td>Base de datos</td>
+                <td>Inglés</td>
+                <td>Programación</td>
+            </tr>
+
+            <tr>
+                <td>09:00 - 10:00</td>
+                <td>Programación</td>
+                <td>Inglés</td>
+                <td>Base de datos</td>
+                <td>Lengua</td>
+            </tr>
+
+            <tr>
+                <td>10:00 - 11:00</td>
+                <td>Inglés</td>
+                <td rowspan="2">Programación</td>
+                <td>Lengua</td>
+                <td>Programación</td>
+                <td>Base de datos</td>
+            </tr>
+
+            <tr>
+                <td>11:00 - 11:30</td>
+                <td colspan="5" class="recreo">RECREO</td>
+            </tr>
+
+            <tr>
+                <td>11:30 - 12:30</td>
+                <td>Base de datos</td>
+                <td>Inglés</td>
+                <td rowspan="2">Programación</td>
+                <td>Lengua</td>
+                <td>Inglés</td>
+            </tr>
+
+            <tr>
+                <td>12:30 - 13:30</td>
+                <td>Lengua</td>
+                <td>Base de datos</td>
+                <td>Inglés</td>
+                <td>Programación</td>
+            </tr>
+
+            <tr>
+                <td>13:30 - 14:30</td>
+                <td>Base de datos</td>
+                <td>Lengua</td>
+                <td>Inglés</td>
+                <td>Base de datos</td>
+                <td>Lengua</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

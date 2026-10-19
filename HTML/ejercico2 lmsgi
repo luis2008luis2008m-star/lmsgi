@@ -3,75 +3,41 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description" content="Página web sobre la naturaleza con una imagen y un vídeo.">
+    <meta name="description" content="Página web con una imagen, un vídeo y marcadores internos.">
     <meta name="author" content="Tu Nombre">
-
-    <title>Descubre la Naturaleza</title>
+    <title>Mi Página Web</title>
 </head>
 <body>
 
-    <h1>Descubre la Naturaleza</h1>
+    <h1>Mi Página Web sobre la Naturaleza</h1>
 
-    <p>
-        Bienvenidos a mi página web dedicada a la naturaleza.
-        Aquí podrás disfrutar de una imagen y un vídeo sobre
-        los paisajes naturales de nuestro planeta.
-    </p>
+    <p>En esta página encontrarás una imagen y un vídeo sobre la naturaleza.</p>
 
-    <h2>Índice de contenidos</h2>
-    <ul>
-        <li><a href="#imagen">Ver imagen</a></li>
-        <li><a href="#video">Ver vídeo</a></li>
-    </ul>
+    <h2>Contenido</h2>
+    <a href="#imagen">Ir a la imagen</a>
+    <br>
+    <a href="#video">Ir al vídeo</a>
 
-    <hr>
+    <h2 id="imagen">Imagen de la Naturaleza</h2>
 
-    <h2 id="imagen">Imagen de la naturaleza</h2>
+    <img src="https://placehold.co/600x400?text=Paisaje+Natural"
+         alt="Imagen de un paisaje natural"
+         width="600"
+         height="400">
 
-    <img
-        src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e"
-        alt="Paisaje natural con montañas, lago y bosque"
-        width="600"
-        height="400"
-    >
+    <p>La naturaleza nos ofrece paisajes que debemos proteger.</p>
 
-    <p>
-        La naturaleza nos ofrece paisajes increíbles que debemos
-        proteger y conservar para las futuras generaciones.
-    </p>
-
-    <p><a href="#video">Ir al vídeo</a></p>
-
-    <hr>
-
-    <h2 id="video">Vídeo sobre la naturaleza</h2>
+    <h2 id="video">Vídeo de YouTube</h2>
 
     <iframe
         width="560"
         height="315"
         src="https://www.youtube.com/embed/ScMzIvxBSi4"
         title="Vídeo de YouTube"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen>
     </iframe>
 
-    <p>
-        Los vídeos nos permiten conocer mejor el mundo natural
-        y descubrir la belleza de nuestro planeta.
-    </p>
-
     <p><a href="#imagen">Volver a la imagen</a></p>
-
-    <hr>
-
-    <footer>
-        <p>&copy; 2026 - Mi Página Web sobre la Naturaleza</p>
-        <a href="#top">Volver al principio</a>
-    </footer>
 
 </body>
 </html>
